@@ -1,19 +1,17 @@
-# Diabetes Risk Stratification & Prevention Insights
+# Diabetes Risk Stratification & Public Health Insights
 
-**End-to-end healthcare analytics project** using CDC BRFSS survey data to identify high-risk populations, evaluate diabetes risk factors, and generate actionable public health insights.
+**End-to-end healthcare analytics project** using CDC BRFSS data to identify high-risk individuals and support prevention strategies.
 
-### Key Insights
+### Key Public Health Insights
+- **BMI** is the strongest modifiable risk factor. Risk increases sharply above BMI 30.
+- Adults with **high blood pressure + low physical activity** have significantly elevated risk.
+- Individuals in lower income groups show higher prevalence — highlighting health equity gaps.
 
-- High BMI, hypertension, and low physical activity were among the strongest predictors of diabetes risk.
-- The relationship between BMI and diabetes risk was strongly non-linear, with substantially higher predicted risk above BMI 30.
-- Explainable machine learning and statistical modeling identified population subgroups that may benefit most from targeted prevention programs.
+**Three Most Important Takeaways**:
+1. Prevention programs should prioritize people with BMI ≥ 30.
+2. Combining BMI, age, and blood pressure gives a practical risk score for clinical use.
+3. Targeted interventions in high-risk groups could reduce diabetes burden.
 
-**Technologies**
+[View Full Analysis →](https://yourusername.github.io/diabetes-risk-stratification-brfss/) (GitHub Pages)
 
-R, tidyverse, tidymodels, gtsummary, naniar, mgcv, DALEX
-
-## Reproducibility
-
-This project uses `renv` to ensure a fully reproducible R environment.
-
-[View Full Report →](outputs/Diabetes_Analysis.html)
+Technologies: R • tidyverse • tidymodels • gtsummary • naniar • mgcv
