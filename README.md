@@ -1,6 +1,3 @@
-# diabetes-risk-stratification-brfss
-Actionable Diabetes Risk Prediction &amp; Public Health Insights from CDC BRFSS Data
-
 # Diabetes Risk Stratification & Prevention Insights
 
 **End-to-end healthcare analytics project** using CDC BRFSS survey data to identify high-risk populations, evaluate diabetes risk factors, and generate actionable public health insights.
